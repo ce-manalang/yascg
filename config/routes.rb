@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   resources :games, only: [:show, :create, :index] do
+    resources :cards
     collection do
       get :join
     end

@@ -1,1 +1,6 @@
 <%= @game.hashid %>
+
+<%= turbo_stream_from @game %>
+<div id="cards" data-controller="scroll">
+  <%= render @cards %>
+</div>

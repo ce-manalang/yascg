@@ -4,6 +4,7 @@ class GamesController < ApplicationController
 
   def show
     @game = Game.find(params[:id])
+    @cards = @game.cards.order(created_at: :asc)
   end
 
   def create
