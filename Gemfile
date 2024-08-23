@@ -74,3 +74,7 @@ gem "stimulus_reflex", "~> 3.5"
 gem "tailwindcss-rails", "~> 2.7"
 
 gem "hashid-rails", "~> 1.4"
+
+gem "cable_ready", "~> 5.0"
+
+gem "hiredis", "~> 0.6.3"
