@@ -1,15 +1,8 @@
 class Card < ApplicationRecord
-  include CableReady::Broadcaster
   belongs_to :game
   after_create do
-    # cable_ready["cards"]
-    #   .console_log(message: "Welcome to the site!")
-    #   .broadcast
-    cable_ready["cards"].insert_adjacent_html(
-      selector: "#cards",
-      position: "afterbegin",
-      html: "<span>Hello World</span>"
-    )
+    cable_ready["card"].console_log(message: "Welcome to the site!")
+    cable_ready.broadcast
   end
   # cable_ready['hello_quotes'].insert_adjacent_html(
   #     selector: '#quotes_list',
