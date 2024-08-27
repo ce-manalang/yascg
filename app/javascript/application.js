@@ -16,3 +16,5 @@ if (splashScreen) {
     },610)
   })
 }
+import "trix"
+import "@rails/actiontext"

@@ -7,3 +7,20 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+all_cards = JSON.parse(File.read(Rails.root.join('db/cards.json')))
+all_cards.each do |card|
+  a = Card.new(
+    game: Game.first,
+    level: card['level'],
+    label: card['label'],
+    wildcard: card['reminder'],
+    reminder: card['reminder'],
+    content: card['content']
+  )
+  if a.save
+    puts "[CREATE]: Card##{a.id}"
+  else
+    puts "[ERRORS]: #{a.errors.full_messages}"
+  end
+end

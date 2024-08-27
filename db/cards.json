@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "level": 1,
+    "label": "perception",
+    "wildcard": true,
+    "reminder": false,
+    "content": "think of your favorite brand of cereal. on the count of three. say your answers out loud! (both players)"
+  },
+  {
+    "id": 2,
+    "level": 1,
+    "label": "perception",
+    "wildcard": true,
+    "reminder": false,
+    "content": "draw a picture together. (30 seconds)"
+  },
+  {
+    "id": 3,
+    "level": 1,
+    "label": "perception",
+    "wildcard": true,
+    "reminder": false,
+    "content": "make an assumption about me. (both players)"
+  },
+  {
+    "id": 4,
+    "level": 1,
+    "label": "perception",
+    "wildcard": true,
+    "reminder": false,
+    "content": "rate your dancing on a scale of 1-10. on the count of three. say your answers out loudly (both players)"
+  },
+  {
+    "id": 5,
+    "level": 1,
+    "label": "perception",
+    "wildcard": true,
+    "reminder": false,
+    "content": "close your eyes. what color are my eyes?"
+  },
+  {
+    "id": 6,
+    "level": 1,
+    "label": "perception",
+    "wildcard": true,
+    "reminder": false,
+    "content": "close your eyes. what color is my shirt?"
+  },
+  {
+    "id": 7,
+    "level": 1,
+    "label": "perception",
+    "wildcard": true,
+    "reminder": false,
+    "content": "maintain eye contact for thirty seconds. what did you notice?"
+  },
+  {
+    "id": 8,
+    "level": 1,
+    "label": "perception",
+    "wildcard": true,
+    "reminder": false,
+    "content": "draw a portrait of each other to the best of ability. (1 minute) then exchange."
+  },
+  {
+    "id": 9,
+    "level": 1,
+    "label": "perception",
+    "wildcard": true,
+    "reminder": false,
+    "content": "think of your favorite childhood tv show of all time. on the count of three, say it out loud! (both players)"
+  },
+  {
+    "id": 10,
+    "level": 1,
+    "label": "perception",
+    "wildcard": true,
+    "reminder": false,
+    "content": "ask and answer the next question in a different accent (both players)."
+  },
+  {
+    "id": 11,
+    "level": 1,
+    "label": "perception",
+    "wildcard": true,
+    "reminder": false,
+    "content": "write down something others would never guess about you just by looking at you. (both players) compare."
+  },
+  {
+    "id": 12,
+    "level": 1,
+    "label": "perception",
+    "wildcard": true,
+    "reminder": true,
+    "content": "let go of your attachment to the outcome."
+  },
+  {
+    "id": 13,
+    "level": 1,
+    "label": "perception",
+    "wildcard": false,
+    "reminder": false,
+    "content": "do i seem like more of a creative or analytical type? explain."
+  },
+  {
+    "id": 14,
+    "level": 1,
+    "label": "perception",
+    "wildcard": false,
+    "reminder": false,
+    "content": "what do you think i'm most likely to splurge on?"
+  },
+  {
+    "id": 15,
+    "level": 1,
+    "label": "perception",
+    "wildcard": false,
+    "reminder": false,
+    "content": "do you think i'm usually early, on time, or late to events? explain."
+  },
+  {
+    "id": 16,
+    "level": 1,
+    "label": "perception",
+    "wildcard": false,
+    "reminder": false,
+    "content": "what do you think is the hardest part of what i do for a living?"
+  },
+  {
+    "id": 17,
+    "level": 1,
+    "label": "perception",
+    "wildcard": false,
+    "reminder": false,
+    "content": "what about me is most strange or unfamiliar to you?"
+  },
+  {
+    "id": 18,
+    "level": 1,
+    "label": "perception",
+    "wildcard": false,
+    "reminder": false,
+    "content": "do you think plants thrive or die in my care? explain."
+  },
+  {
+    "id": 19,
+    "level": 1,
+    "label": "perception",
+    "wildcard": false,
+    "reminder": false,
+    "content": "finish the sentence: just by looking at you i'd think __________."
+  },
+  {
+    "id": 20,
+    "level": 1,
+    "label": "perception",
+    "wildcard": false,
+    "reminder": false,
+    "content": "what reality show do you think i'm most likely to binge watch? explain."
+  },
+  {
+    "id": 21,
+    "level": 1,
+    "label": "perception",
+    "wildcard": false,
+    "reminder": false,
+    "content": "what about me intrigues you?"
+  },
+  {
+    "id": 22,
+    "level": 1,
+    "label": "perception",
+    "wildcard": false,
+    "reminder": false,
+    "content": "on a scale of 1-10, how messy do you think my car is? 1 being cleanest, 10 a complete disaster. explain."
+  },
+  {
+    "id": 23,
+    "level": 1,
+    "label": "perception",
+    "wildcard": false,
+    "reminder": false,
+    "content": "what subject do you think i thrived in at school? did i fail any?"
+  },
+  {
+    "id": 24,
+    "level": 1,
+    "label": "perception",
+    "wildcard": false,
+    "reminder": false,
+    "content": "if you were to buy me a present, knowing nothing about me other than what i look like, what would it be?"
+  },
+  {
+    "id": 25,
+    "level": 1,
+    "label": "perception",
+    "wildcard": false,
+    "reminder": false,
+    "content": "what character would i play in a movie?"
+  }
+]

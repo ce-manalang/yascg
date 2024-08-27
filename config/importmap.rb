@@ -12,3 +12,5 @@ pin "morphdom" # @2.6.1
 pin "cable_ready" # @5.0.5
 pin "stimulus_reflex" # @3.5.2
 pin "fireworks-js", to: "https://ga.jspm.io/npm:fireworks-js@2.10.0/dist/index.es.js"
+pin "trix"
+pin "@rails/actiontext", to: "actiontext.esm.js"

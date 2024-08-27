@@ -1,4 +1,5 @@
 class Card < ApplicationRecord
+  has_rich_text :content
   belongs_to :game
   after_create do
     cable_ready["card"].console_log(message: "Welcome to the site!")
