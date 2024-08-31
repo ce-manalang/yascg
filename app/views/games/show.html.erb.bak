@@ -1,0 +1,5 @@
+<%= @game.hashid %>
+
+<div id="cards" data-controller="card">
+  <%= render @cards %>
+</div>
