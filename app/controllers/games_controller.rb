@@ -5,7 +5,9 @@ class GamesController < ApplicationController
   def show
     @game = Game.find(params[:id])
     @cards = @game.cards.order(created_at: :asc)
-    @card = @game.cards.find(@game.cards.pluck(:id).sample)
+    # @card = @game.cards.find(@game.cards.pluck(:id).sample)
+    @card = @game.cards.first
+    @messages = @card.messages
     cable_ready[:foo]
       .append("body", html: "They lay awake, wondering if there is a dog.")
       .broadcast
