@@ -1,0 +1,10 @@
+<!-- app/views/questions/index.html.erb -->
+<h1>Questions</h1>
+<%= turbo_stream_from "questions_your_session_id}" %>
+<ul id="questions-list">
+  <% @questions.each do |question| %>
+    <li id="question_<%= question.id %>">
+      <%= question.content %> (Category: <%= question.category %>)
+    </li>
+  <% end %>
+</ul>

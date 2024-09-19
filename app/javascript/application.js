@@ -4,17 +4,5 @@ import "controllers"
 import "config"
 import "channels"
 
-var splashScreen = document.querySelector('.splash');
-if (splashScreen) {
-  splashScreen.addEventListener('click',()=>{
-    splashScreen.style.opacity = 0;
-    setTimeout(()=>{
-      // transition : 0.5s;
-      // display : none;
-      splashScreen.classList.add('duration-75')
-      splashScreen.classList.add('hidden')
-    },610)
-  })
-}
 import "trix"
 import "@rails/actiontext"
